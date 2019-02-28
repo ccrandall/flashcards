@@ -71,9 +71,13 @@ nav a {
   border: 1px solid #f1f1f1;
 	box-shadow: 1px 1px 15px #9E9E9E;
   max-height: 25em;
-  min-height: 20em;
+  min-height: 15em;
   padding: 1em 2em;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card p {
+  margin: 0;
 }
 
 /* This container is needed to position the front and back side */
@@ -162,6 +166,6 @@ p.success {
 		font-size: 1.2em
 	}
 	.flip-card {
-		font-size: 0.9em
+		font-size: 0.7em
 	}
 }
