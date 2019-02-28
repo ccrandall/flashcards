@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='/stylesheets/main.min.css')
+  body
+    header
+      h1= title
+    block content
+    footer &copy; 2019 - All Rights Reserved
+    block scripts
+      script(type='text/javascript', src='/javascripts/main.min.js')
+      script(src='//localhost:35729/livereload.js')

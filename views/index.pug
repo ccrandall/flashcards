@@ -1,0 +1,15 @@
+extends layout
+
+block scripts
+  script(type='text/javascript', src='/javascripts/flashcards.js')
+  
+block content
+  article
+    div(class='flip-card')
+      div(id='flip-card-inner-container', class='flip-card-inner')
+  nav
+    a(id='previousCard', href='#', title='previous card', data-card-index='') ◀
+    a(id='home', href='/', title='home', data-card-index='') ◆
+    a(id='nextCard', href='#', title='next-card', data-card-index='') ▶
+  div(class='question')
+    a(href='/add_question') Add a new question?
