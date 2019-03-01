@@ -8,8 +8,9 @@ block content
     div(class='flip-card')
       div(id='flip-card-inner-container', class='flip-card-inner')
   nav
-    a(id='previousCard', href='#', title='previous card', data-card-index='') ◀
-    a(id='home', href='/', title='home', data-card-index='') ◆
-    a(id='nextCard', href='#', title='next-card', data-card-index='') ▶
+    a(id='previousCard', href='#', title='previous card', data-card-index='') <i class="fas fa-chevron-circle-left"></i>
+    a(id='home', href='/', title='home', data-card-index='') <i class="fas fa-circle"></i>
+    a(id='nextCard', href='#', title='next-card', data-card-index='') <i class="fas fa-chevron-circle-right"></i>
   div(class='question')
     a(href='/add_question') Add a new question?
+  script(src='//localhost:35729/livereload.js')

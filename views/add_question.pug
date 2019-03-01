@@ -2,6 +2,7 @@ extends layout
 
 block content
   div(class='wrapper')
+    h2 Add a new Flashcard
     form(action='/add_question/new', method='POST')
       label(for='question') Question:
       input(type='text', name='question')

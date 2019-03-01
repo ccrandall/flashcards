@@ -4,7 +4,7 @@ var router = express.Router();
 
 /* GET add question page. */
 router.get('/', function(req, res, next) {
-  res.render('add_question', { title: 'Add a new JavaScript Flashcard' });
+  res.render('add_question', { title: 'JavaScript Flashcards' });
 });
 
 router.post('/', function(req, res, next) {
