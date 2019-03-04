@@ -3,14 +3,14 @@ html
   head
     title= title
     meta(name="viewport", content="width=device-width, initial-scale=1, user-scalable=no")
+    link(rel='shortcut icon', href='/images/favicon.ico')
     link(rel='stylesheet', type='text/css', href='https://use.fontawesome.com/releases/v5.7.2/css/all.css', integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr', crossorigin='anonymous')
     link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Montserrat:400,600')
     link(rel='stylesheet', href='/stylesheets/main.min.css')
   body
     header
-      span(class='fab fa-js-square')
+      a(href='/')
+        span(class='fab fa-js-square')
       h1= title
     block content
     footer &copy; 2019 - All Rights Reserved
-    block scripts
-      script(src='//localhost:35729/livereload.js')
