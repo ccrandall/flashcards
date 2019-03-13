@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+/*DEBUG=nodejs:* npm start*/
 /**
  * Module dependencies.
  */
